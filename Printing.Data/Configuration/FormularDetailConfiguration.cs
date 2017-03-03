@@ -12,10 +12,10 @@ namespace PrintingManager.Data.Configuration
     {
         public FormularDetailConfiguration()
         {
-            ToTable("T_FormularDetail");
-            Property(g => g.Name).IsRequired().HasMaxLength(50);
-            //Property(g => g.Price).IsRequired().HasPrecision(8, 2);
-            Property(g => g.CategoryID).IsRequired();
+            //ToTable("T_FormularDetail");
+            //Property(g => g.Name).IsRequired().HasMaxLength(50);
+            ////Property(g => g.Price).IsRequired().HasPrecision(8, 2);
+            //Property(g => g.CategoryID).IsRequired();
         }
     }
 }

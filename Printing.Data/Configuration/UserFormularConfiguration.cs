@@ -13,7 +13,7 @@ namespace PrintingManager.Data.Configuration
         public UserFormularConfiguration()
         {
             ToTable("T_UserFormular");
-            Property(c => c.Name).IsRequired().HasMaxLength(50);
+           // Property(c => c./Name).IsRequired().HasMaxLength(50);
         }
     }
 }

@@ -12,8 +12,8 @@ namespace PrintingManager.Data.Configuration
     {
         public UserRoleConfiguration()
         {
-            ToTable("T_UserRole");
-            Property(c => c.Name).IsRequired().HasMaxLength(50);
+            //ToTable("T_UserRole");
+            //Property(c => c.Name).IsRequired().HasMaxLength(50);
         }
     }
 }

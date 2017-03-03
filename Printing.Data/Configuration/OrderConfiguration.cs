@@ -12,10 +12,10 @@ namespace PrintingManager.Data.Configuration
     {
         public OrderConfiguration()
         {
-            ToTable("T_Order");
-            Property(g => g.Name).IsRequired().HasMaxLength(50);
-           // Property(g => g.Price).IsRequired().HasPrecision(8, 2);
-            Property(g => g.CategoryID).IsRequired();
+           // ToTable("T_Order");
+           // Property(g => g.Name).IsRequired().HasMaxLength(50);
+           //// Property(g => g.Price).IsRequired().HasPrecision(8, 2);
+           // Property(g => g.CategoryID).IsRequired();
         }
     }
 }

@@ -12,8 +12,8 @@ namespace PrintingManager.Data.Configuration
     {
         public UserProductConfiguration()
         {
-            ToTable("T_UserProduct");
-            Property(c => c.Name).IsRequired().HasMaxLength(50);
+            //ToTable("T_UserProduct");
+            //Property(c => c.Name).IsRequired().HasMaxLength(50);
         }
     }
 }

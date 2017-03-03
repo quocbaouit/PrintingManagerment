@@ -13,9 +13,9 @@ namespace PrintingManager.Data.Configuration
         public RoLeConfiguration()
         {
             ToTable("T_RoLe");
-            Property(g => g.Name).IsRequired().HasMaxLength(50);
+           // Property(g => g.Name).IsRequired().HasMaxLength(50);
            // Property(g => g.Price).IsRequired().HasPrecision(8, 2);
-            Property(g => g.CategoryID).IsRequired();
+            //Property(g => g.CategoryID).IsRequired();
         }
     }
 }

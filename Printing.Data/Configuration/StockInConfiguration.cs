@@ -13,9 +13,9 @@ namespace PrintingManager.Data.Configuration
         public StockInConfiguration()
         {
             ToTable("T_StockIn");
-            Property(g => g.Name).IsRequired().HasMaxLength(50);
+           // Property(g => g.Name).IsRequired().HasMaxLength(50);
            // Property(g => g.Price).IsRequired().HasPrecision(8, 2);
-            Property(g => g.CategoryID).IsRequired();
+           // Property(g => g.CategoryID).IsRequired();
         }
     }
 }

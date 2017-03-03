@@ -10,13 +10,10 @@ using System.Web.Routing;
 
 namespace PrintingManager.Web
 {
-    public class MvcApplication : System.Web.HttpApplication
+    public class MvcApplication : HttpApplication
     {
         protected void Application_Start()
         {
-            // Init database
-            System.Data.Entity.Database.SetInitializer(new PrintingSeedData());
-
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
