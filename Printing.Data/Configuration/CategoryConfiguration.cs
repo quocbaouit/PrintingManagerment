@@ -1,14 +1,8 @@
 ﻿using PrintingManager.Model;
-using System;
-using System.Collections.Generic;
-using System.Data.Entity.ModelConfiguration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PrintingManager.Data.Configuration
 {
-    public class CategoryConfiguration : EntityTypeConfiguration<Category>
+    public class CategoryConfiguration : EntityBaseConfiguration<Category>
     {
         public CategoryConfiguration()
         {

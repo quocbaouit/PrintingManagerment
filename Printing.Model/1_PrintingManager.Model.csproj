@@ -39,7 +39,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\T_Order.cs" />
+    <Compile Include="Models\T_OrderDetail.cs" />
+    <Compile Include="Models\T_Partner.cs" />
+    <Compile Include="Models\T_PaymentVoucher.cs" />
+    <Compile Include="Models\T_Permission.cs" />
+    <Compile Include="Models\T_Position.cs" />
+    <Compile Include="Models\T_Product.cs" />
+    <Compile Include="Models\T_ProductType.cs" />
+    <Compile Include="Models\T_Formular.cs" />
+    <Compile Include="Models\T_Feature.cs" />
+    <Compile Include="Models\T_Quittance.cs" />
+    <Compile Include="Models\T_FormularDetail.cs" />
+    <Compile Include="Models\T_Timing.cs" />
+    <Compile Include="Models\T_ReceiptVoucher.cs" />
+    <Compile Include="Models\T_Machine.cs" />
+    <Compile Include="Models\T_StockInDetail.cs" />
+    <Compile Include="Models\T_RoLe.cs" />
+    <Compile Include="Models\T_User.cs" />
+    <Compile Include="Models\T_RolePermission.cs" />
+    <Compile Include="Models\T_MaterialType.cs" />
+    <Compile Include="Models\T_UserFormular.cs" />
+    <Compile Include="Models\T_Staff.cs" />
+    <Compile Include="Models\T_Menu.cs" />
+    <Compile Include="Models\T_Customer.cs" />
+    <Compile Include="Models\T_UserProduct.cs" />
+    <Compile Include="Models\T_StandardSale.cs" />
+    <Compile Include="Models\T_MenuCategory.cs" />
+    <Compile Include="Models\T_UserRole.cs" />
+    <Compile Include="Models\T_StockIn.cs" />
+    <Compile Include="Models\T_Notification.cs" />
+    <Compile Include="Models\T_ErrorLog.cs" />
+    <Compile Include="Models\T_ElementFormular.cs" />
+    <Compile Include="Models\T_Material.cs" />
+    <Compile Include="Models\T_Organization.cs" />
+    <Compile Include="Models\IEntityBase.cs" />
+    <Compile Include="Models\T__Remind.cs" />
     <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\T_CommodityDictionary.cs" />
     <Compile Include="Models\Gadget.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
